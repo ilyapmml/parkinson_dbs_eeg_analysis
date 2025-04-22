@@ -1,0 +1,1 @@
+C:\Users\ilya\Documents\lab\parkinson_dbs_eeg_analysis\data\raw\Sample_OFF_1_eyes_closed_marked_bip.fif 

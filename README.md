@@ -24,31 +24,3 @@ The pipeline produces preprocessed data, coherence, and PSD in .csv format for a
 6. Анализ спектральной плотности мощности (PSD): Метод Уэлча применяется для оценки спектральных характеристик сигналов.
 7. Выявление других закономерностей и объяснение результатов: Построение специфичных для нейронаук графиков и статистический анализ с последующим объяснением результатов.
 Работа создаёт пайплайн для обработки нейроданных. Результаты (предобработанные данные, когерентность, PSD) сохраняются в формате .csv и могут использоваться для сравнения состояний DBS (ON vs. OFF), оценки влияния леводопы и выявления биомаркеров моторных нарушений.
-
-
-# Project structure
-
-```
-parkinson_dbs_eeg_analysis/
-├── data/
-│   ├── raw/                    # Sample Raw .fif file
-│   ├── preprocessed/           # Sample data .csv file
-│   ├── coherence/              # Sample Coherence .csv files
-│   ├── psd/                    # Sample psd .csv file
-├── notebooks/
-│   └── compilated_preprocessing.ipynb  # Preprocessing pipeline
-├── README.md                   # Project description
-```
-
-
-# Installation
-
-Install the required Python libraries manually:
-- `numpy`
-- `pandas`
-- `mne`
-- `mne-connectivity`
-- `matplotlib`
-
-```bash
-pip install numpy pandas mne mne-connectivity matplotlib

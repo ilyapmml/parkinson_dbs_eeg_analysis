@@ -1,4 +1,4 @@
-# About project
+##About project
 
 This study processes neurophysiological data from Parkinson’s disease (PD) patients who underwent Deep Brain Stimulation (DBS) surgery at the Burdenko Neurosurgery Center. PD, a neurodegenerative disorder, affects the basal ganglia, including the subthalamic nucleus (STN), causing motor symptoms like tremor, bradykinesia, and rigidity. The main goal is to examine coherence—signal synchronization—between the motor cortex (EEG channels: CZ, C3, C4) and STN (DBS channels: 1-2, 2-3, 4-3, left/right hemispheres), focusing on the beta range (13–30 Hz), linked to motor impairments in PD.
 Coherence measures cortex-STN interaction strength, revealing neural mechanisms of motor deficits and effects of therapies like levodopa and DBS. Beta-band synchronization, modulated by dopamine, positions coherence as a potential biomarker of therapy efficacy. This study uses EEG-DBS data to deepen understanding of cortex-STN interactions, addressing gaps in prior research, and aims to optimize PD therapy through personalized approaches.
